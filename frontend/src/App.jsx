@@ -11,11 +11,12 @@ export default function App() {
   return (
     <Routes>
       {/* Public routes */}
+      <Route path="/" element={<Navigate to="/login" replace />} />
       <Route path="/login" element={<LoginPage />} />
-      <Route path="/signup" element={<CreateAccountPage />} /> 
-      <Route path="/links" element={<LinksPage />}/>
-      <Route path="/profile" element={<ProfileDetailsPage />}/>
-      <Route path="/preview" element={<Preview />}/>
+      <Route path="/signup" element={<CreateAccountPage />} />
+      <Route path="/links" element={<LinksPage />} />
+      <Route path="/profile" element={<ProfileDetailsPage />} />
+      <Route path="/preview" element={<Preview />} />
 
     </Routes>
   )
