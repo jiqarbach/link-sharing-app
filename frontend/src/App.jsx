@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import LoginPage from './pages/LoginPage'
 import CreateAccountPage from './pages/CreateAccountPage'
 import LinksPage from './pages/LinksPage'
